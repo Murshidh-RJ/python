@@ -16,7 +16,7 @@ def deposite():
 
   return amount
 
-def get_number_of_lines()
+def get_number_of_lines():
   while True:
     Lines = input("Enter the number of lines to be bet on (1-" + str(MAX_LINES) + ")? ")
     if Lines.isdigit():
